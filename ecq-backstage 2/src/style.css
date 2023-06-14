@@ -1,0 +1,132 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgb(204, 204, 204);
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+  background-color: rgb(20, 20, 20);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: rgb(99, 100, 102);
+	border-radius: 20px;
+	box-shadow: inset 0 0 0 white;
+}
+
+/* fade-transform */
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+	transition: all 0.2s;
+}
+.fade-transform-enter-from {
+	opacity: 0;
+	transition: all 0.2s;
+	transform: translateX(-30px);
+}
+.fade-transform-leave-to {
+	opacity: 0;
+	transition: all 0.2s;
+	transform: translateX(30px);
+}
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+.displayy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.white{
+  color:#fff
+}
+.red{
+  color: red;
+}
+.orange{
+  color: orange;
+}
+.green{
+  color: green;
+}
+.econtainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+/* overflow: hidden; */
+
+
+}
+
+.ename {
+  color: #CFD7E9;
+  font-size: 22px
+}
+
+.ebutton {
+  color: 16px;
+  color: #fff;
+  width: 141px;
+  height: 42px;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+.eheader {
+  width: 100%;
+  margin-bottom: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.etable {
+  /* flex: 1 ; */
+
+  border: 3px solid #2C3C58 ;
+  border-top:none ;
+}
+/* 修改背景颜色 */
+.elementor-element-populated .elementor-drop-down .elementor-drop-down-menu {
+  background-color: red;
+}
+
+/* 修改字体颜色 */
+.elementor-element-populated .elementor-drop-down .elementor-drop-down-menu a {
+  color: red;
+}
+
+/* 修改鼠标悬停字体颜色 */
+.elementor-element-populated .elementor-drop-down .elementor-drop-down-menu a:hover {
+  color: red;
+}
+
+/* 修改边框 */
+.elementor-element-populated .elementor-drop-down .elementor-drop-down-menu {
+  border: 1px solid red;
+}

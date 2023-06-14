@@ -1,0 +1,20 @@
+.voice {
+    height: 90%;
+  
+    // border:1px solid #414243 ;
+    // 表格行之间的白线
+    .el-table__body .el-table__row>td.el-table__cell {
+      border: none;
+  
+    }
+  
+    // 表格底部的白线
+    .el-table__inner-wrapper::before {
+      background-color: transparent;
+    }
+   
+    // 表头的下边框
+    // .el-table th.el-table__cell.is-leaf{
+    //     border-bottom: none;
+    //   }
+  }
